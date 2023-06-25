@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <header>
+    <div class="main">
+        <div class="left">
+            <img src="fb.logo.svg" alt="my image">
+            <p>Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="right">
+            <form onclick="login(event)">
+                <div class="form-body">
+                    <input id="email" type="text" placeholder="Email or Phone Number">
+                    <input id="password" type="password" placeholder="Password">
+                    <button class="Log">Log In</button>
+                    <p class="Forget">Forget password?</p>
+                    <hr>
+                    <div class="create" onclick="window.location.href='./Signup.html'">Create new account</div>
+                </div>
+            </form>
+            <p class="foot"><span>Create page</span> for a celebrity, brand or business.</p>
+        </div>
+    </div>
+    </header>
+    <script src="login.js"></script>
+</body>
+</html>

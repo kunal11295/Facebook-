@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #f0f2f5
+}
+header .main
+{
+    position: absolute;
+    top:25%;
+    width: 70%;
+    gap:60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.left
+{
+    flex: 1;
+    justify-content:left;
+}
+.right
+{
+    flex: 1;
+}
+
+.left p
+{
+    font-size: 28px;
+    font-weight: 400; 
+    margin-top: -14px;
+    margin-left: 28px;
+    letter-spacing: 0.2px;
+}
+
+.left img
+{
+    width: 301px;
+    height: 106px;
+}
+
+header .main .right form
+{
+    width: 396px;
+    padding:20px 0 28px;
+    background: #fff;
+    border-radius: 8px;
+    margin-top: -50px;
+    box-shadow: 0 2px 4px rgba(0,0,0,1);    
+    padding: 20px,0,28px;
+}
+
+.form-body
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 12px;
+    gap: 15px;
+}
+
+form input
+{
+    flex: 1;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    border-radius: 5px;
+    color: #1d2129;
+    outline-color: #8ab7f8;
+    padding: 14px 16px;
+    margin-top: 10px;
+}
+
+.Log
+{
+    background-color: #1877f2;
+    font-size: 20px;
+    color: #fff;
+    line-height: 48px;
+    padding: 0 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    width: 100%;
+}
+
+.Forget
+{
+    text-align: center;
+    color: #1877f2;
+    font-size: 20px;
+    margin: 5px 0;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.Forget:hover{
+    text-decoration: underline;
+}
+hr
+{
+    background: rgba(128,128,128,0.349);
+    height: 0.2px;
+}
+.create
+{
+    background-color: #42b72a;
+    font-size: 18px;
+    color: #fff;
+    width: 192px;
+    font-weight: bold;
+    line-height: 48px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    padding: 0 16px;
+    margin-top: 10px;
+}
+.foot
+{
+    margin-top: 28px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.foot span
+{
+    font-weight: bold;
+}

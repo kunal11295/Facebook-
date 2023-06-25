@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div class="Signup">
+        <div class="top">
+            <div class="heading">
+                <h2>Sign Up</h2>
+                <p>It's quick and easy.</p>
+            </div>
+            <div class="pic">
+            <img src="cross.png" alt="image">
+            </div>
+        </div>
+        <form onclick="register(event)">
+            <div class="Signup-body">
+                    <input id="name" type="text" placeholder="Enter the Name">
+                    <input id="email" type="email" placeholder="Enter the email">
+                    <input id="password" type="password" placeholder="Enter the password">
+                    <input id="confirmpassword" type="password" placeholder="Enter the confirmpassword">
+                </div>
+                <div class="info">
+                 <p>People who use our service may have uploaded your contact information to Facebook.<span> Learn more.</span></p>
+                </div>
+                <div class="term">
+                    <p>By clicking Sign Up, you agree to our<span>Terms, Privacy Policy and Cookies Policy.</span> You may receive SMS notifications from us and can opt out at any time.</p>
+                </div>       
+                <button class="Sign">Signup</button>
+        </form>
+    </div>
+    <script src="./signup.js"></script>
+</body>
+</html>
